@@ -1,11 +1,11 @@
 import './App.css';
-import RegisterUser from './components/Users/registration';
+import Registration from './components/Users/Registration';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <RegisterUser></RegisterUser>
+        <Registration></Registration>
       </header>
     </div>
   );
