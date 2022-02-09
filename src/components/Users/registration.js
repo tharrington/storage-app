@@ -20,7 +20,7 @@ const Registration = (props) => {
   const passwordChangeHandler = (event) => {
     setEnteredPassword(event.target.value);
   }
-
+ 
   return (
     <Card className={classes.input}>
       <form onSubmit={registerUserHandler}>
