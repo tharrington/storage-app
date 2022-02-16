@@ -36,7 +36,7 @@ const Registration = (props) => {
   const errorHandler = () => {
     setError(null);
   }
-
+ 
   return (
     <React.Fragment>
       {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorHandler}></ErrorModal>}
